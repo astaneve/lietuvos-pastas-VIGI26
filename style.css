@@ -1,3 +1,7 @@
+body {
+    background-color: #e3e3e3;
+}
+
 body,
 p,
 h1,
@@ -8,6 +12,12 @@ h2 {
 
 a {
     text-decoration: none;
+}
+
+a, 
+button {
+    transition: 500ms;
+    cursor: pointer;
 }
 
 .black-header {
@@ -26,7 +36,6 @@ a {
 
 .black-header a:hover {
     color: white;
-    transition: 500ms;
 }
 
 .white-header {
@@ -42,9 +51,50 @@ a {
 }
 
 .white-header a {
+    color: #585454;
+    font-size: 17px;
     margin: 0 12px;
 }
 
-img {
-    size: 50px 200px;
+.white-header a:hover {
+    color: #909090;
 }
+
+img {
+    width: 140px;
+    height: 46px;
+}
+
+.white-header button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 18px;
+}
+
+.white-header button:hover {
+    background-color: #f87676;;
+}
+
+.city {
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-688899881-1519413300.jpg);
+    height: 70vh;
+    background-size: cover;
+}
+
+.news {
+    padding: 32px;
+    background-color: white;
+    margin: -24px 32px 0 32px;
+}
+
+.news h2 {
+    text-align: center;
+    font-weight: 100;
+    border-bottom: 2px solid yellow;
+    width: 120px;
+    margin: 0 auto;
+    padding-bottom: 16px;
+}
+
