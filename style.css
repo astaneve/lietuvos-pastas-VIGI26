@@ -98,3 +98,27 @@ img {
     padding-bottom: 16px;
 }
 
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    margin: 16px;
+    width: 47%;
+    border: 1px solid #585555;
+    border-radius: 5px;
+    padding-bottom: 16px;
+}
+
+
+
+.card .card-image img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card .card-text, .card a {
+    padding: 16px;
+}
